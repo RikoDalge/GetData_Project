@@ -11,7 +11,14 @@ Goal:
 The Tidy Data was obteined from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 and it was reestructured in a way that the final result is a data frame with 68 columns - 2 IDs (Activity and Subject) and 66 Mean of the original selected variables from the raw data.
 
-
+The transformation process script is:
+1. Read Train and Test sets;
+2. Identify the Activity and Subject using left_join() for both datasets;
+3. Merge both datasets using Merge() function;
+4. Define the interest variables (columns);
+5. Define variables names;
+6. group dataset by Activity and Subjet calculating the mean for every variable;
+7. Export the tidy data in .txt format;
 
 
 #Experiment Header

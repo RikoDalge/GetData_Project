@@ -64,3 +64,5 @@ tidyData$Subject <- NULL
 
 # write the dataset to a file
 write.table(tidyData, "tidyData.txt", sep="\t", row.name=FALSE)
+
+#Test <- read.table("tidyData.txt")

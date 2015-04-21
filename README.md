@@ -14,7 +14,7 @@ and it was reestructured in a way that the final result is a data frame with 68 
 
 
 
-#Experiment Header
+Experiment Header
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0

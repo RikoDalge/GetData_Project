@@ -57,7 +57,7 @@ tidyData <- aggregate(tidyFea, by = list(tidyFea[,2],
 
 tidyData <- rename(tidyData, c("Group.1" = "Activity", 
                                "Group.2" = "Subject.ID"))
-
+#Delete extra colunms
 tidyData$Activity_ID <- NULL
 tidyData$Activity.Name <- NULL
 tidyData$Subject <- NULL
